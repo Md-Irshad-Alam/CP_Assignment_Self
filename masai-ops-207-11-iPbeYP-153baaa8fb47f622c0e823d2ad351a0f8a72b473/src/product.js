@@ -8,7 +8,7 @@ function Product(name,brand, price,description) {
 
 
 }
-var obj = new Product();
+// var onpm bj = new Product();
 // console.log(obj)
 Product.prototype.changePrice = function (newprice){
   this.price =newprice;
